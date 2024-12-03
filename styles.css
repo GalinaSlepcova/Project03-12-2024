@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", serif;
+    font-weight: 400;
+    height: 5189px;
+    top: -2360px;
+    left: -761px;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header .logo {
+    width: 149px;
+    top: 50px;
+    left: 150px;
+    height: 36.23px;
+}
+
+header div .lasles {
+    font-weight: 500;
+    font-size: 20px;
+    padding: auto;
+
+}
+
+div .vpn {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.span1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.span2 {
+    font-size: 700;
+    font-size: 50px;
+}
