@@ -24,6 +24,24 @@ ul {
     margin: 0 auto;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 104px;
+    height: 24px;
+    color: #0B132A;
+}
+
+.bold {
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.normal {
+    font-weight: 500;
+    color: #4F5665;
+}
+
 .header {
     padding: 45px 150px;
 }
@@ -34,12 +52,11 @@ ul {
     align-items: center;
 }
 
-.logo {
-
-}
-
 .menu {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .menu-main {
@@ -113,8 +130,40 @@ ul {
 
 }
 
-.object_follower_card {
-    background: url("./img1/Rectangle\ 252.png");
+.btn1 {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 3px 3px 5px #F5383859;
+
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1140px;
     height: 200px;
+    margin-top: 103px;
+    box-shadow: 3px 3px 5px #0D1025;
+}
+
+
+.object_follower_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon_1 {
+}
+.icon_2 {
+
+}
+.icon_3 {
+
 }
