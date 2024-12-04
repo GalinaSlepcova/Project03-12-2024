@@ -5,7 +5,7 @@ body {
     font-family: "Rubik", serif;
     background-color: #FFFFFF;
     font-weight: 400;
-
+    height: 5189px;
 }
 
 a {
@@ -144,11 +144,7 @@ h3 {
 }
 
 .container_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1140px;
-    height: 200px;
+    padding: 45px 150px;
     margin-top: 103px;
     box-shadow: 3px 3px 5px #0D1025;
 }
@@ -156,14 +152,37 @@ h3 {
 
 .object_follower_card {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+  
+    justify-content: space-around;
+    align-items: center;
 }
 
-.icon_1 {
+.container_icon .object_follower_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.icon_2 {
 
+.icon {
+    color: rgba(79, 86, 101, 1);
 }
-.icon_3 {
 
+.photo_2 {
+    float: left;
+    padding-left: 150px;
+}
+
+.card_info_2 {
+    margin-top: 150px;
+}
+
+.heading_two {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: right;
+    color: #0B132A;
+    margin: 0;
+    margin-bottom: 20px;
 }
