@@ -76,3 +76,45 @@ ul {
 .btn:hover {
     opacity: 0.8;
 }
+
+.card_container {
+
+}
+
+.photo {
+    float: right;
+    padding-right: 150px;
+}
+
+.card_center {
+    width: 555px;
+}
+
+.card_info {
+
+}
+
+.heading_one {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    color: #0B132A;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    text-align: left;
+    color: #4F5665;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 55px;
+
+}
+
+.object_follower_card {
+    background: url("./img1/Rectangle\ 252.png");
+    width: 1140px;
+    height: 200px;
+}
